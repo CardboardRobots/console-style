@@ -2,8 +2,11 @@
   "name": "@cardboardrobots/console-style",
   "version": "0.0.0",
   "description": "Console Style for Node.js",
-  "main": "dist/src/index.js",
-  "typings": "dist/src/index.d.ts",
+  "repository": {
+    "url": "https://github.com/cardboardrobots/console-style"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "start": "tsc",
     "test": "npm run lint && npm run unit",
