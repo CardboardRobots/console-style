@@ -1,5 +1,5 @@
 {
-  "name": "@sjohnsonaz/console-style",
+  "name": "@cardboardrobots/console-style",
   "version": "0.0.0",
   "description": "Console Style for Node.js",
   "main": "dist/src/index.js",
