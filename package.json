@@ -1,6 +1,6 @@
 {
   "name": "@cardboardrobots/console-style",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Console Style for Node.js",
   "repository": {
     "url": "https://github.com/cardboardrobots/console-style"
