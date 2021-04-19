@@ -1,6 +1,5 @@
-import { ConsoleEnd } from './ConsoleEnd';
-import { text } from './ConsoleFormat';
-import { ConsoleStyle } from './ConsoleStyle';
+import { ConsoleEnd, ConsoleStyle } from '../constants';
+import { text } from '../format';
 
 export function reset(value: any) {
     return text(ConsoleStyle.Reset, ConsoleStyle.Reset, value);

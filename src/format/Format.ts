@@ -1,7 +1,4 @@
-import { ConsoleColor } from './ConsoleColor';
-import { ConsoleEnd } from './ConsoleEnd';
-
-const BACKGROUND_OFFSET = 10;
+import { BACKGROUND_OFFSET, ConsoleColor, ConsoleEnd } from '../constants';
 
 export function character(value: number) {
     return `\x1b[${value}m`;

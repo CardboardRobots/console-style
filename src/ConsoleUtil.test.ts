@@ -1,17 +1,6 @@
-import {
-    Color,
-    Background,
-    Style,
-    ConsoleColor,
-    ConsoleEnd,
-    ConsoleStyle,
-    background,
-    character,
-    color,
-    text,
-} from '.';
-
-const BACKGROUND_OFFSET = 10;
+import { BACKGROUND_OFFSET, ConsoleColor, ConsoleEnd, ConsoleStyle } from './constants';
+import { Color, Background, Style } from './styles';
+import { background, character, color, text } from './format';
 
 describe('ConsoleUtil', function () {
     describe('ConsoleFormat', function () {

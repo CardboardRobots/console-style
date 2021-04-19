@@ -1,5 +1,5 @@
-import { ConsoleColor } from './ConsoleColor';
-import { color } from './ConsoleFormat';
+import { ConsoleColor } from '../constants';
+import { color } from '../format';
 
 export function black(value: any) {
     return color(ConsoleColor.Black, value);
