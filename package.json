@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "Console Style for Node.js",
   "repository": {
-    "url": "https://github.com/cardboardrobots/console-style"
+    "url": "https://github.com/cardboardrobots/console-style.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
